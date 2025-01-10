@@ -24,6 +24,7 @@ export const metadata: Metadata = {
       "                            platform performance and reduced deployment time. Committed to continuous improvement,\n" +
       "                            effective collaboration, and delivering tailored solutions that meet both technical and\n" +
       "                            business objectives.",
+    icons: "/me.jpg",
     keywords: ["Software Development", "Software", "Developer", "Software Engineer", "Talent", "Engineer", "Full Stack Developer", "Full-stack Developer", "full-stack Engineer", "Frontend Developer", "Frontend Engineer", "Backend Developer", "Backend Engineer", "Front-end", "Back-end", "full-stack"]
 };
 

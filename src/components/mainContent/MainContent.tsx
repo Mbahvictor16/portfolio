@@ -6,7 +6,7 @@ import Contact from "@/components/mainContent/Contact";
 
 export default function MainContent() {
     return (
-        <main className="w-10/12 mx-auto pb-16">
+        <main className="w-10/12 md:w-8/12 lg:w-10/12 mx-auto pb-16">
             <Intro />
             <AboutMe />
             <Skills />

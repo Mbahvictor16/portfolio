@@ -23,7 +23,7 @@ export default function AboutMe() {
                 </div>
 
                 <div className="lg:w-1/2">
-                    <div className="h-[300px] lg:w-[300px] overflow-hidden rounded-2xl lg:h-[300px]">
+                    <div className="h-[300px] w-[300px] mx-auto lg:mx-0 lg:w-[300px] overflow-hidden rounded-2xl lg:h-[300px]">
                         <Image src={workSpace} alt={"My picture"} width={400} height={400}
                                className="w-full h-full object-cover"/>
                     </div>

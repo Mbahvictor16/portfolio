@@ -9,8 +9,8 @@ export default function Skills() {
     return (
         <section className="my-10" id="skills">
             <h1 className="text-purple-200 text-3xl mb-4 font-bold text-center">Skills</h1>
-            <div className="md:flex gap-16 justify-evenly">
-                <div className="md-w-1/2 mb-8 lg:w-1/3">
+            <div className="md:flex flex-wrap lg:flex-nowrap gap-y-8 lg:gap-16 justify-evenly">
+                <div className="md:w-1/2 mb-8 lg:w-1/3">
                     <h3 className="font-bold text-center mb-4">Languages</h3>
                     <ul className="flex flex-wrap gap-8 items-center justify-center">
                         <li><BiLogoTypescript className="text-slate-500" size={32}/></li>
@@ -19,7 +19,7 @@ export default function Skills() {
                     </ul>
                 </div>
 
-                <div className="md-w-1/2 mb-8 lg:w-1/3">
+                <div className="md:w-1/2 mb-8 lg:w-1/3">
                     <h3 className="font-bold text-center mb-4">Frameworks</h3>
                     <ul className="flex flex-wrap gap-8 items-center justify-center">
                         <li><RiReactjsLine className="text-slate-500" size={32}/></li>
@@ -33,7 +33,7 @@ export default function Skills() {
                     </ul>
                 </div>
 
-                <div className="md-w-1/2 mb-8 lg:w-1/3">
+                <div className="md:w-1/2 mb-8 lg:w-1/3">
                     <h3 className="font-bold text-center mb-4">Styling Preprocessors</h3>
                     <ul className="flex flex-wrap gap-8 items-center justify-center">
                         <li><FaLess className="text-slate-500" size={32}/></li>
@@ -41,7 +41,7 @@ export default function Skills() {
                     </ul>
                 </div>
 
-                <div className="md-w-1/2 mb-8 lg:w-1/3">
+                <div className="md:w-1/2 mb-8 lg:w-1/3">
                     <h3 className="font-bold text-center mb-4">Databases &amp; ORMs</h3>
                     <ul className="flex flex-wrap gap-8 items-center justify-center">
                         <li><SiMysql className="text-slate-500" size={32}/></li>
@@ -55,7 +55,7 @@ export default function Skills() {
                     </ul>
                 </div>
 
-                <div className="md-w-1/2 mb-8 lg:w-1/3">
+                <div className="md:w-1/2 mb-8 lg:w-1/3">
                     <h3 className="font-bold text-center mb-4">Devtools</h3>
                     <ul className="flex flex-wrap gap-8 items-center justify-center">
                         <li><FaGitAlt className="text-slate-500" size={32}/></li>
